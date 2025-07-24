@@ -28,7 +28,7 @@ Este módulo proporciona un comportamiento personalizado para ZMK que permite ca
         behaviors {
             lang_toggle: lang_toggle {
                 compatible = "zmk,behavior-lang-toggle";
-                label = "LANG_TOGGLE";
+                #binding-cells = <0>;
             };
         };
     };

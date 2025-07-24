@@ -10,6 +10,11 @@ properties:
     type: string
     description: "(Internal) Name for the behavior, used in generated defines"
     required: true
+    deprecated: true
+
+bindings:
+  - name: behavior
+    description: The behavior to activate
 
   '#binding-cells':
     type: int
