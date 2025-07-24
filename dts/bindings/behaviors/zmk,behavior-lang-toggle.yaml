@@ -1,0 +1,17 @@
+# Copyright (c) 2024 Your Name
+# SPDX-License-Identifier: MIT
+
+description: Behavior to toggle a global language state.
+
+compatible: "zmk,behavior-lang-toggle"
+
+properties:
+  label:
+    type: string
+    description: "(Internal) Name for the behavior, used in generated defines"
+    required: true
+
+  '#binding-cells':
+    type: int
+    const: 0
+    description: "(Internal) Number of parameters passed to the behavior in the keymap"
